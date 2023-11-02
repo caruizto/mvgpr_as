@@ -5,6 +5,13 @@ This repository contains a zip file with the corresponding RStudio project.
 
 The project contains the following:
 
-1. Folder Functions with an R script with the necesary functions for fitting the models and plotting the results.
-2. Folder Data with the raw data.
-3. Rmd file to run the experiments presented in the paper.
+1. An R script mvgpr_functions with the necesary functions for fitting the models and plotting the results.
+2. Raw data in the as_data.xlsx file. The columns are:
+     a. Name: alloy or pure metal name
+     b. Type: pure or alloy
+     c. n_elements: number of elements in the alloy
+     d. Primary and Secondary metals
+     e. Columns with basic property predictions from ASs
+     f. Elemental percentage from each element in the alloy
+     h. Train: 1 if point must be in the training set and 0 otherwise
+4. mvgpr_as_paper_results.Rmd file to run the experiments presented in the paper.
