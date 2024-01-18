@@ -15,3 +15,6 @@ The project contains the following:
      f. Elemental percentage from each element in the alloy
      h. Train: 1 if point must be in the training set and 0 otherwise
 4. mvgpr_as_paper_results.Rmd file to run the experiments presented in the paper.
+5. binary_viz folder with the app.R file used to run a Shiny dashboard of the predictions for binary alloys.
+
+The code must be executed in RStudio by first oppening the MVGPR_AS.Rproj file. Otherwise, RStudio may not find all data files and scripts.
